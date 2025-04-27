@@ -1,0 +1,27 @@
+body, button, input{
+    font-size: 20px;
+    direction: rtl;
+    font-family: Tahoma;
+    padding: 5px;
+}
+input{
+    width: 80px;
+}
+h2{
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+}
+#chances{
+    font-weight: bold;
+    color: red;
+}
+.blue{
+    color: blue;
+}
+.red{
+    color: red;
+}
+.hidden{
+    display: none;
+}
