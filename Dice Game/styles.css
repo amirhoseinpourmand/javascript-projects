@@ -33,15 +33,8 @@ img {
 }
 
 footer {
-  margin-top: 5%;
+  margin-top: 300px;
   color: #EEEEEE;
   text-align: center;
   font-family: 'Indie Flower', cursive;
-
-}
-html{
-    height: 90vh;
-}
-footer{
-  margin-top: 300px;
 }
