@@ -1,0 +1,128 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Fira Code", monospace;
+  background: linear-gradient(135deg, #f0f4f9, #e7efff);
+  color: #222;
+  line-height: 1.6;
+  direction: ltr;
+  text-align: left;
+}
+
+header.masthead {
+  background: #673ab7;
+  color: #fff;
+  padding: 1.2rem;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+}
+
+header h1 {
+  margin: 0;
+  font-size: 1.7rem;
+  font-weight: 600;
+}
+
+main {
+  max-width: 750px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+.intro p {
+  margin-bottom: 1.5rem;
+  font-size: 1rem;
+  color: #555;
+  text-align: justify;
+}
+
+.pattern {
+  margin: 1rem 0 0.4rem;
+  font-weight: bold;
+  color: #555;
+}
+
+#origin-text {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  line-height: 1.8;
+  text-align: left;
+  direction: ltr;
+  letter-spacing: 0.2px;
+  word-spacing: 0px;
+}
+
+.test-wrapper {
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  background: #fff;
+  transition: border-color 0.3s;
+}
+
+.test-wrapper textarea {
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 0.9rem;
+  font-size: 1rem;
+  resize: none;
+  font-family: inherit;
+  display: block;
+  background: transparent;
+  direction: ltr;
+  text-align: left;
+}
+
+.meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.timer {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #388e3c;
+  background: #e8f5e9;
+  padding: 0.4rem 1rem;
+  border-radius: 6px;
+}
+
+#reset {
+  background: #673ab7;
+  font-weight: bold;
+  color: #fff;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 6px;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+#reset:hover {
+  background: #512da8;
+}
+
+@media (max-width: 500px) {
+  main {
+    padding: 0 0.5rem;
+  }
+
+  #origin-text, .test-wrapper {
+    font-size: 1.1rem;
+  }
+
+  .timer, #reset {
+    font-size: 1rem;
+    padding: 0.4rem 0.8rem;
+  }
+}
